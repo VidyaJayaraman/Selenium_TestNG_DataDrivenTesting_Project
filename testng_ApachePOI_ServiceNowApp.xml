@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<parameter name="url" value="https://dev124219.service-now.com/"></parameter>
+<parameter name="username" value="admin"></parameter>
+<parameter name="password" value="mH2cD%JVb!6p"></parameter>
+  <test thread-count="5" name="service_now_create_order_caller_proposal_article">
+    <classes>
+      <class name="week5.day2.assignment.servicenowApp.CreateNewCaller_ServiceNowApp"/>
+      <class name="week5.day2.assignment.servicenowApp.CreateArticle_ServiceNowApp"/>
+      <class name="week5.day2.assignment.servicenowApp.CreateNewProposal_ServiceNowApp"/>
+      <class name="week5.day2.assignment.servicenowApp.OrderNewMobile_ServiceNowApp"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
